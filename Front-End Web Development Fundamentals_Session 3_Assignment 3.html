@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+      
+      <head>
+
+            <meta charset="UTF-8">
+
+            <style>
+
+                   /* Class selector */
+            	   .container {
+            	   	           width: 450px;
+                               background-color: #3DFFA3;
+                               margin: 10px auto;
+                               padding: 10px;
+                              }
+
+                    .box {
+                    	padding: 5px;
+                    	margin: 10px;
+                    	width: 400px;
+                    	height: 50px;
+                    	border: 1px solid #FF00FF;
+                    	background-color: #ABD1CC;
+                    }
+
+                    .box-more{
+                    	padding: 5px;
+                    	margin: 10px;
+                    	width: 400px;
+                    	height: 80px;
+                    	border: 1px solid #FF00FF;
+                    	background-color: #ABD1CC;
+                    }
+
+            </style>
+
+            <!-- HTML5 shim for IE8 support of HTML5 elements -->
+            <!--[if lt IE 9]>
+			<script src=“https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js”></script>
+		    <![endif]-->
+
+      </head>
+
+      <body>
+
+            <form>
+
+                  <div class="container">
+
+                         <b>Step 1: Your details</b></br></br>
+                  
+                  <div class="box">
+
+                         <p>
+
+                            <center>
+
+                                    <label for="name">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                                    <input type="text" name="name" id="name" placeholder="First and last name">
+
+                            </center>
+
+                         </p>
+
+                  </div>
+
+                  <div class="box">
+
+                         <p>
+
+                            <center>
+
+                                    <label>Email </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                                    <input type="email" name="email" placeholder="example@domain.com">
+
+                            </center>
+
+                         </p>
+
+                  </div>
+
+                  <div class="box">
+
+                         <p>
+
+                            <center>
+
+                                    <label for="Phone">Phone</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                                    <input type="text" name="phone" id="phone" placeholder="e.g. +4475000000000">
+
+                            </center>
+
+                         </p>
+
+                  </div>
+
+                         <b>Step 2: Delivery Address</b></br></br>
+
+                  <div class="box-more">
+
+                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <label for="address">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                            <textarea rows="3" cols="30" name="address" id="address"></textarea>
+
+                         </p>
+
+                  </div>
+
+                  <div class="box">
+
+                          <p>
+
+                             <center>
+
+                                    <label for="postcode">PostCode</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                                    <input type="text" name="postcode" id="postcode">
+
+                             </center>
+
+                          </p>
+
+                  </div>
+
+                  <div class="box">
+
+                          <p>
+
+                             <center>
+
+                                     <label for="country">Country</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                                     <input type="text" name="country" id="country">
+
+                             </center>
+
+                          </p>
+
+                  </div>
+
+                          <b>Step 1: Card details</b></br></br>
+
+                   <div class="box-more">
+
+                          <p>
+
+                             <label for="cardtype">Card type</label></br></br>
+                   
+                             <input type="radio" name="tick" value="visa"><img class="irc_mi" src="https://www.libraryforsmartinvestors.com/wp-content/uploads/2015/05/visa.png" onload="google.aft&amp;&amp;google.aft(this)" width="20" height="20" style="margin-top: 1px;" alt="Image result for visa image"> Visa
+                   
+                             <input type="radio" name="tick" value="AmEx"><img class="irc_mi" src="http://www.paymentscardsandmobile.com/wp-content/uploads/2015/08/Amex-icon.jpg" onload="google.aft&amp;&amp;google.aft(this)" width="20" height="20" style="margin-top: 1px;" alt="Image result for amex image"> AmEx
+                   
+                             <input type="radio" name="tick" value="mastercard"><img class="irc_mi" src="http://www.logodesignlove.com/images/symbols/mastercard-symbol-02.jpg" onload="google.aft&amp;&amp;google.aft(this)" width="20" height="20" style="margin-top: 1px;" alt="Image result for mastercard image"> MasterCard
+
+                          </p>
+
+                   </div>
+
+                   <div class="box">
+
+                          <p>
+
+                             <center>
+
+                                     <label for="cardnumber">Card number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   
+                                     <input type="text" name="cardnumber" id="cardnumber">
+
+                             </center>
+
+                          </p>
+
+                   </div>
+
+                   <div class="box">
+
+                          <p>
+
+                             <center>
+
+                                     <label for="securitycode">SecurityCode</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                                     <input type="text" name="securitycode" id="securitycode">
+
+                             </center>
+
+                          </p>
+
+                   </div>
+
+                   <div class="box">
+
+                          <p>
+
+                             <center>
+
+                                     <label for="nameoncard">Name on card</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   
+                                     <input type="text" name="nameoncard" id="nameoncard" placeholder="exact name as on the card">
+
+                             </center>
+
+                          </p>
+
+                   </div>
+
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   
+                         <button name="Submit">BUY IT!</button>
+
+                   </div>
+
+            </form>
+      
+      </body>
+
+</html>
+
+
+
+
